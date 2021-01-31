@@ -12,3 +12,4 @@ def read_yml(path):
 
 if __name__ == '__main__':
     print(read_yml('./data.yml'))
+    print(read_yml('./data.yml')['datas'])
